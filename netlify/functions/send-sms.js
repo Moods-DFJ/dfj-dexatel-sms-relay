@@ -6,7 +6,7 @@ export async function handler(event) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X-Dexatel-Key": process.env.DEXATEL_API_KEY
+        "X-Dexatel-Key": process.env.976624233cd8b8b4d43c96c5ca9953bd
       },
       body: JSON.stringify({
         data: {
